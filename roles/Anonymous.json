@@ -1,0 +1,36 @@
+{
+    "Description": "Default role that is applied to all unauthenticated users",
+    "ID": "Anonymous",
+    "Name": "Anonymous",
+    "Permissions": {
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "getFoodsInfo",
+                "SystemKey": "8c91fda40bc6fdc7a0bd9497938501"
+            }
+        ],
+        "Collections": [],
+        "DevicesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "JQ Demo",
+                "SystemKey": "8c91fda40bc6fdc7a0bd9497938501"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "SystemServices": null,
+        "Topics": [],
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
